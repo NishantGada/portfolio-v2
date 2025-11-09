@@ -1,35 +1,47 @@
-.back-to-top a {
-  visibility: hidden;
+.back-to-top {
+  position: fixed;
   right: 30px;
   bottom: 50px;
-  width: 50px;
-  text-align: center;
-  position: fixed;
-  /* background: transparent; */
-  border: 2px solid #f53b57;
-  /* border: 2px solid #0984e3; */
-  /* color: #0984e3; */
+  z-index: 999;
+}
 
-  padding: 15px;
-  border-radius: 50%;
+.back-to-top a {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f53b57;
   background-color: #f53b57;
-  /* background-color: #0984e3; */
+  border-radius: 50%;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media screen and (max-width: 360px) {
-  .back-to-top a {
+/* Show when active */
+.back-to-top.active a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.back-to-top a:hover {
+  background-color: #ff5c75;
+  border-color: #ff5c75;
+}
+
+@media screen and (max-width: 768px) {
+  .back-to-top {
     right: 20px;
     bottom: 20px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .back-to-top a {
-    right: 20px;
-    bottom: 20px;
+@media screen and (max-width: 360px) {
+  .back-to-top {
+    right: 15px;
+    bottom: 15px;
   }
 }
