@@ -27,7 +27,7 @@ export default function About() {
         </div>
 
         <div class="self_image">
-          <img src="./assets/img/self-no-bg.jpeg" alt="" />
+          <img src="src/assets/self-no-bg.jpeg" alt="" />
         </div>
       </div>
     </section>
