@@ -3,10 +3,14 @@ import './Experience.css';
 import { experiences } from '../../utils/data/experience';
 
 export default function Experience() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndexes, setActiveIndexes] = useState([]);
 
   const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    if (activeIndexes.includes(index)) {
+      setActiveIndexes(activeIndexes.filter(i => i !== index));
+    } else {
+      setActiveIndexes([...activeIndexes, index]);
+    }
   };
 
   return (
@@ -16,8 +20,8 @@ export default function Experience() {
       <div className="accordion">
         {experiences.map((exp, index) => (
           <div
-            className={`accordion-item ${activeIndex === index ? 'active' : ''}`}
             key={index}
+            className={`accordion-item ${activeIndexes.includes(index) ? 'active' : ''}`}
           >
             <button
               className="accordion-header"
