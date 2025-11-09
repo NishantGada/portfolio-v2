@@ -11,12 +11,12 @@ export default function About() {
       <div class="content">
         <div class="contentBox">
           <p>
-            Software Engineer with 2.5+ years of experience working across start-ups, mid-size companies, fintech
-            companies, and large-scale enterprises, where I’ve owned, built, and managed financial products, user-centric
+            Software Engineer with 3 years of experience working across start-ups, mid-size companies, fintech
+            companies, and large-scale enterprises, where I’ve owned, built, launched, and managed financial products, user-centric
             applications, financial dashboards, enterprise software, and mobile applications.
           </p>
           <p>
-            Ultra curious about AI, AI Agents, Cloud Computing, and Software Development and eager to augment my
+            Ultra curious about AI, AI Agents, Cloud Computing, and Software Engineering and eager to augment my
             knowledge, experience and skills in the professional world.
           </p>
           <p>
