@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
 
   const handleMenuClick = () => {
-    setIsActive(!isActive);
+    setIsActive((prev) => !prev);
   };
 
   return (
