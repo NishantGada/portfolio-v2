@@ -1,0 +1,110 @@
+.banner {
+  padding: 20px 100px 100px 100px;
+  position: relative;
+  background-color: rgb(29, 29, 29);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-container {
+  font-size: 18px;
+  margin: 0 auto;
+
+  p {
+    color: white;
+    line-height: 1.5em;
+  }
+}
+
+#constantly-updating {
+  color: rgb(85, 85, 85);
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+#name-text {
+  font-size: 45px;
+}
+
+.action-buttons-container {
+  width: 25%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  max-width: 250px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 30px;
+  letter-spacing: 1.5px;
+  border: 2px solid white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    padding: 50px;
+  }
+
+  #constantly-updating {
+    font-size: 36px;
+  }
+
+  .action-buttons-container {
+    width: 35%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    padding: 40px 20px;
+  }
+
+  #constantly-updating {
+    font-size: 28px;
+  }
+
+  .action-buttons-container {
+    width: 40%;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .btn {
+    max-width: none;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #constantly-updating {
+    font-size: 22px;
+  }
+
+  .action-buttons-container {
+    width: 80%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,177 @@
+.contact {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 50px 0 100px 0;
+}
+
+.contact div {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact form {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid white;
+}
+
+#name {
+  width: 47.5%;
+  background-color: white;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 10px;
+  color: black;
+}
+
+#email {
+  width: 47.5%;
+  float: right;
+  background-color: white;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 10px;
+  color: black;
+}
+
+#message {
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 50px 10px;
+  color: black;
+}
+
+#submit {
+  width: 30%;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 4px;
+  border: 2px solid white;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+#submit:hover {
+  background: transparent;
+  color: white;
+}
+
+#sub-contact {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#sub-contact p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#sub-contact p:nth-child(1) {
+  font-size: 24px;
+  width: 20%;
+  padding-top: 20px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* #sub-contact p:nth-child(3) {
+  font-size: 24px;
+  width: 20%;
+  padding-top: 20px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+} */
+
+#reach_me_email {
+  text-align: center;
+  margin: 80px 0 0 0;
+  font-size: 21px;
+}
+
+@media screen and (max-width: 360px) {
+  .contact form {
+    width: 80%;
+  }
+
+  #name {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #email {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #message {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  #submit {
+    width: 50%;
+  }
+
+  #sub-contact p:nth-child(1) {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  /* #sub-contact p:nth-child(3) {
+      font-size: 24px;
+      width: 50%;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  .contact form {
+    width: 80%;
+  }
+
+  #name {
+    width: 100%;
+    margin: 12px 0;
+  }
+
+  #email {
+    width: 100%;
+    margin: 12px 0;
+  }
+
+  #message {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  #submit {
+    width: 55%;
+  }
+
+  #sub-contact p:nth-child(1) {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  /* #sub-contact p:nth-child(3) {
+      font-size: 24px;
+      width: 50%;
+  } */
+}

@@ -1,0 +1,116 @@
+.skills {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 50px 60px 100px 60px;
+}
+
+.skills h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.skill h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  margin: 0px 0 10px 0;
+}
+
+.skills .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: stretch;
+}
+
+.skills .content .skill {
+  background-color: rgb(51, 51, 51);
+  padding: 40px 20px;
+  color: white;
+  width: 340px;
+  margin: 10px;
+  text-align: center;
+  transition: 0.25s;
+  border-radius: 8px;
+  box-sizing: border-box;
+  flex: 1 1 300px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.skills .content .skill:hover {
+  background-color: #f53b57;
+}
+
+/* ---------- Responsive ---------- */
+@media screen and (max-width: 1024px) {
+  .skills {
+    padding: 50px 40px 80px;
+  }
+
+  .skills h2 {
+    font-size: 1.8em;
+  }
+
+  .skills .content .skill {
+    width: 45%;
+    /* two per row on tablets */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    padding: 40px 20px 80px;
+  }
+
+  .skills h2 {
+    font-size: 1.6em;
+    margin: 20px 0;
+  }
+
+  .skills .content .skill {
+    width: 100%;
+    /* one per row */
+    padding: 30px 15px;
+  }
+
+  .skill h2 {
+    font-size: 1.1em;
+  }
+
+  .skills .content .skill p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    padding: 30px 15px 60px;
+  }
+
+  .skills h2 {
+    font-size: 1.4em;
+  }
+
+  .skills .content {
+    gap: 15px;
+  }
+
+  .skills .content .skill {
+    width: 100%;
+    padding: 25px 12px;
+  }
+
+  .skill h2 {
+    font-size: 1em;
+  }
+
+  .skills .content .skill p {
+    font-size: 13px;
+  }
+}

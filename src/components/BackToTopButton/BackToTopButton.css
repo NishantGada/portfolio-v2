@@ -1,0 +1,35 @@
+.back-to-top a {
+  visibility: hidden;
+  right: 30px;
+  bottom: 50px;
+  width: 50px;
+  text-align: center;
+  position: fixed;
+  /* background: transparent; */
+  border: 2px solid #f53b57;
+  /* border: 2px solid #0984e3; */
+  /* color: #0984e3; */
+
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #f53b57;
+  /* background-color: #0984e3; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 360px) {
+  .back-to-top a {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back-to-top a {
+    right: 20px;
+    bottom: 20px;
+  }
+}
