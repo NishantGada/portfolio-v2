@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import selfImage from '../../assets/self-no-bg.jpeg';
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
         </div>
 
         <div class="self_image">
-          <img src="src/assets/self-no-bg.jpeg" alt="" />
+          <img src={selfImage} alt="" />
         </div>
       </div>
     </section>
