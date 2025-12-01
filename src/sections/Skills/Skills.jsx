@@ -10,12 +10,12 @@ export default function Skills() {
         <div class="skill">
           <h2>Front End</h2>
           <p>React, TypeScript, JavaScript, Angular, HTML, Next.js</p>
-          <p>CSS, SCSS, Bootstrap, Tailwind CSS, Ant Design, Material UI, Figma</p>
+          <p>CSS, SCSS, Bootstrap, Tailwind CSS, Ant Design, Material UI, Chakra UI, Shadcn, Figma</p>
         </div>
         <div class="skill">
           <h2>Back end</h2>
-          <p>Python, Django REST Framework, Flask, Fast API</p>
-          <p>JavaSE, JavaEE, Spring, Spring Boot, Hibernate</p>
+          <p>Python, Django REST Framework, Flask, FastAPI</p>
+          <p>JavaSE, JavaEE, Spring, Spring Boot</p>
           <p>Next.js, Node.js, Express</p>
         </div>
         <div class="skill">
@@ -30,15 +30,14 @@ export default function Skills() {
           <h2>Database</h2>
           <p>SQL (MySQL, PostgreSQL)</p>
           <p>NoSQL (MongoDB, Firebase, Redis)</p>
-          <p>GraphQL</p>
         </div>
         <div class="skill">
           <h2>Leadership</h2>
-          <p>Communication, Vision, Management and Belief. </p>
+          <p>Communication, Vision, Management, and Belief. </p>
         </div>
         <div class="skill">
           <h2>DevOps & CI/CD</h2>
-          <p>Docker, Kubernetes, Jenkins, Github Actions, Terraform</p>
+          <p>Docker, Kubernetes, Jenkins, GitHub Actions, Terraform</p>
         </div>
         <div class="skill">
           <h2>Languages</h2>
