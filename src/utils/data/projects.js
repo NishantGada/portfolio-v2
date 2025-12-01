@@ -38,7 +38,7 @@ export const projects = [
   {
     name: "BostonTown",
     emoji: "",
-    techStack: "React, Node.js, Express, MongoDB, Ant Design",
+    techStack: "React, Node.js, Express, MongoDB, Zustand, Ant Design",
     description:
       "Led a team of 4 to develop a Boston-based listing website using the MERN stack, featuring over 300,000 properties for improved apartment search. Designed a user reporting feature with an interactive heat map for increased trust and informed decision-making.",
     githubLink: "https://github.com/NishantGada/BostonTown",
