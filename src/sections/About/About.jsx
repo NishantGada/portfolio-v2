@@ -12,7 +12,7 @@ export default function About() {
       <div class="content">
         <div class="contentBox">
           <p>
-            Software Engineer with 3 years of experience working across start-ups, mid-size companies, fintech
+            Software Engineer with 6 years of experience writing code and 3+ years of experience working across start-ups, mid-size companies, fintech
             companies, and large-scale enterprises, where I’ve owned, built, launched, and managed financial products, user-centric
             applications, financial dashboards, enterprise software, and mobile applications.
           </p>
