@@ -4,6 +4,7 @@ import Banner from './sections/Banner/Banner'
 import Contact from './sections/Contact/Contact'
 import Education from './sections/Education/Education'
 import Experience from './sections/Experience/Experience'
+import More from './sections/More/More'
 import Navbar from './sections/Navbar/Navbar'
 import Projects from './sections/Projects/Projects'
 import Skills from './sections/Skills/Skills'
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <Projects />
       <Education />
+      <More />
       <Contact />
       <BackToTopButton />
     </>

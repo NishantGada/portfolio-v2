@@ -1,0 +1,53 @@
+#more {
+  background-color: rgb(29, 29, 29);
+  padding: 100px;
+  color: white;
+}
+
+.more-item {
+  list-style: disc;
+  margin: 20px 0;
+}
+
+#more ul li a {
+  color: #f53b57;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.custom-list {
+  margin-top: 20px;
+}
+
+.custom-list p {
+  margin: 5px 0;
+}
+
+.custom-list ul {
+  padding-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.custom-list-item {
+  list-style-type: decimal;
+}
+
+@media screen and (max-width: 768px) {
+  #more {
+    padding: 100px 30px;
+  }
+
+  #more ul li {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  #more ul li a {
+    color: #f53b57;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
