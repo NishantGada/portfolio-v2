@@ -6,9 +6,9 @@ export const experiences = [
     items: [
       "Engineered core LMS migration services to third-party integrations using Python, Django REST Framework, React, and TypeScript to boost system reliability by 29% and user growth by 15%",
       "Developed CI/CD pipelines for staged deployments across 5+ cross-functional teams, cutting release time by 20% with less than 2% post-release issues",
-      "Contributed towards onboarding 3 new partners onto the Home Equity Dashboard to further support customer loan journey and management",
+      "Contributed towards onboarding 3 partners onto the Home Equity Dashboard to improve customer loan journey and service integration",
       "Drove static typing adoption using TypeScript and Pydantic, ensured code quality via 100+ code reviews, and introduced reusable design patterns",
-      "Leveraged test-driven development to increase test coverage from 73% to 86% by adding unit tests, integration tests, and end-to-end tests using Pytest, Jest, and Cypress, preventing regression failures"
+      "Leveraged test-driven development (TDD) to increase test coverage from 73% to 86% by adding unit, integration, regression, and end-to-end tests using Pytest, Jest, and Cypress, preventing regression failures"
     ]
   },
   {
@@ -16,12 +16,12 @@ export const experiences = [
     company: "Think360.ai (Think Analytics)",
     duration: "September 2021 to June 2023",
     items: [
-      "Launched a Regulatory Audit Dashboard handling 3M+ customer records under strict government compliance, cutting service response time by 22%",
-      "Bumped revenue by 27% by improving system performance using domain-driven design, Redis caching, and Python-based code optimizations",
       "Built a secure, high-throughput KYC microservice using Python, Flask, SQL, and AWS–reducing identity verification time and processing delays by 23%",
-      "Boosted client funnel by 36% scaling the microservice across 3 major business verticals with the help of Docker, GitHub Actions, and Kafka",
+      "Bumped revenue by 27% by improving system performance using domain-driven design, Redis caching, and Python-based code optimization",
+      "Scaled a core microservice horizontally across three business verticals using Docker, Kafka-based asynchronous communication, and GitHub Actions CI/CD, resulting in a 36% improvement in the client conversion funnel",
+      "Launched a Regulatory Audit Dashboard handling 3M+ daily active users under strict government compliance, cutting service response time by 22%",
       "Led bi-weekly demos across product, engineering, and design teams to align delivery timelines, preempt release bottlenecks, and ensure seamless go-lives",
-      "Delivered a full-stack Loan Disbursal System (Python, Java, React, Redis, SQL/NoSQL, AWS) for 50k+ customers, launching an MVP within 4 agile sprints"
+      "Delivered a full-stack Loan Origination System (LOS) using Python, FastAPI, React, Redis, PostgreSQL, AWS to serve 100k+ users within 4 agile sprints"
     ]
   },
   {
@@ -48,7 +48,7 @@ export const experiences = [
     company: "University of Mumbai",
     duration: "July 2019 to December 2019",
     items: [
-      "Developed a robust Python pipeline to fetch and analyze thousands of tweets using the Twitter API, focusing on public reactions to the revocation of Article 370",
+      "Developed a robust Python pipeline to fetch and analyze millions of tweets using the Twitter API, focusing on public reactions to the revocation of Article 370",
       "Performed advanced sentiment analysis using Python and NLP techniques, extracting meaningful insights from unstructured social media data.",
       "Created compelling visualizations with Matplotlib, highlighting trends and patterns in public opinion with clarity and precision",
       "Identified prominent thought leaders and influencers, providing a detailed assessment of citizens’ positive and negative attitudes toward the government’s action"
