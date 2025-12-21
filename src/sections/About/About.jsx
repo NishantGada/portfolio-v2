@@ -13,7 +13,7 @@ export default function About() {
         <div class="contentBox">
           <p>
             Software Engineer with 6 years of experience writing code and 3+ years of experience working across start-ups, mid-size companies, fintech
-            companies, and large-scale enterprises, where I’ve owned, built, launched, and managed financial products, user-centric
+            companies, and large-scale enterprises - where I’ve owned, built, launched, and managed financial products, user-centric
             applications, financial dashboards, enterprise software, and mobile applications.
           </p>
           <p>
@@ -22,7 +22,7 @@ export default function About() {
           </p>
           <p>
             Skilled in Python, Java, JavaScript/TypeScript, React, SQL/NoSQL, constructing cloud-focused infrastructure
-            using AWS and GCP, and building CI/CD pipelines. Proven experience building scalable enterprise standard
+            using AWS and GCP, and building CI/CD pipelines. Experienced in building scalable enterprise standard
             applications and improving system efficiency and reliability in fast-paced, dynamic environments.
           </p>
         </div>

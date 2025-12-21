@@ -5,7 +5,7 @@ import { projects } from '../../utils/data/projects';
 export default function Projects() {
   return (
     <section className="projects" id="projects">
-      <h2>Projects</h2>
+      <h2 id="section-header">Projects</h2>
       <div className="grid-container">
         {projects.map((project, index) => (
           project.show ? <div className="project" key={index}>

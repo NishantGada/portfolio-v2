@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    title: "Software Engineering Co-op",
+    title: "Software Engineer Co-op",
     company: "Hometap",
     duration: "January 2025 to June 2025",
     items: [
@@ -36,10 +36,10 @@ export const experiences = [
   {
     title: "Full Stack Engineering Intern",
     company: "Nirol",
-    duration: "April 2020 to May 2020",
+    duration: "April 2020 to October 2020",
     items: [
-      "Designed a TikTok style video sharing social network while managing a team of 5 interns using Python, Django, GraphQL, React, Redux",
-      "Established core frontend and backend features via asynchronous Django services and Redux state management to track and display likes,comments, and follow / unfollow events to improve user interaction by 47%",
+      "Designed a YouTube style video sharing social network while managing a team of 5 interns using Python, Django, GraphQL, React, Bootstrap, Redux",
+      "Established core frontend and backend features via asynchronous Django services and Redux state management to track and display likes,comments, and follow/unfollow events to improve user interaction by 47%",
       "Wrote and optimized 20+ GraphQL APIs for user relationships and recommendation pipelines, leveraging data prefetching and query batching"
     ]
   },

@@ -23,7 +23,7 @@ export default function Navbar() {
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#more">More about me</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact & Socials</a></li>
       </ul>
     </nav>
   );

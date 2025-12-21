@@ -29,16 +29,16 @@ export const projects = [
   {
     name: "Jiraffe",
     emoji: "",
-    techStack: "Java, Spring/Spring Boot, Hibernate, SQL",
+    techStack: "Java, Spring Boot, Spring JPA, Hibernate, SQL, React",
     description:
-      "Developed a bug tracking application with a user-friendly JSP interface, implementing role-based authorization to streamline bug reporting, assignment, and tracking. Leveraged Hibernate ORM and DAO patterns for efficient data management and real-time updates, and designed an advanced dashboard with filtering and sorting capabilities.",
+      "Developed a bug tracking application with a user-friendly React-powered frontend, implementing role-based authorization to streamline bug reporting, assignment, and tracking. Leveraged Hibernate ORM and DAO patterns for efficient data management and real-time updates, and designed an advanced dashboard with filtering and sorting capabilities.",
     githubLink: "https://github.com/NishantGada/bug-tracker",
     show: true
   },
   {
     name: "BostonTown",
     emoji: "",
-    techStack: "React, Node.js, Express, MongoDB, Zustand, Ant Design",
+    techStack: "React, Node.js, Express, NoSQL (MongoDB), Zustand, Ant Design",
     description:
       "Led a team of 4 to develop a Boston-based listing website using the MERN stack, featuring over 300,000 properties for improved apartment search. Designed a user reporting feature with an interactive heat map for increased trust and informed decision-making.",
     githubLink: "https://github.com/NishantGada/BostonTown",
@@ -47,7 +47,7 @@ export const projects = [
   {
     name: "Unwritten",
     emoji: "",
-    techStack: "Python, Django, JavaScript, CSS, Tailwind CSS, SQL",
+    techStack: "Python, Django, JavaScript, CSS, TailwindCSS, MySQL",
     description:
       "Developed a full-stack blogging platform with a robust backend supporting blog creation, media uploads, and timestamp tracking. Designed advanced search and filtering features to improve navigation and content discovery.",
     githubLink: "https://github.com/NishantGada/unwritten",

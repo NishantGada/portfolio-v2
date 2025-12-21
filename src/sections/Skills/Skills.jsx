@@ -16,7 +16,7 @@ export default function Skills() {
           <h2>Back end</h2>
           <p>Python, Django REST Framework, Flask, FastAPI</p>
           <p>JavaSE, JavaEE, Spring, Spring Boot</p>
-          <p>Next.js, Node.js, Express</p>
+          <p>Nest.js, Node.js, Express</p>
         </div>
         <div class="skill">
           <h2>Mobile App Developement</h2>

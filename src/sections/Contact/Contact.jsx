@@ -1,11 +1,12 @@
 import React from 'react';
 import './Contact.css';
+import leetCodeIcon from '../../assets/icons/leetcode.png';
 
 export default function Contact() {
   return (
     <section class="contact" id="contact">
       <div>
-        <h1>Contact</h1>
+        <h1>Contact & Socials</h1>
       </div>
 
       <div id="email">
@@ -27,6 +28,18 @@ export default function Contact() {
           <span>
             <a href="https://github.com/NishantGada/" target="_blank">
               <i class="fa fa-github contact-icons" aria-hidden="true"></i>
+            </a>
+          </span>
+          <span>
+            <a href="https://leetcode.com/u/nishantgada/" target="_blank">
+              <img src={leetCodeIcon} alt="" />
+              <p id="leetcode-text">Python</p>
+            </a>
+          </span>
+          <span>
+            <a href="https://leetcode.com/u/ngada/" target="_blank">
+              <img src={leetCodeIcon} alt="" />
+              <p id="leetcode-text">Java</p>
             </a>
           </span>
         </div>

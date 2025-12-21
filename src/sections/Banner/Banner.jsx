@@ -7,7 +7,7 @@ export default function Banner() {
       <div class="text-container">
         <p id="constantly-updating">const update;</p>
         <div>
-          <p>My name is</p>
+          <p>Hi, my name is</p>
           <p id="name-text">Nishant Gada</p>
           <p>Visionary, Developer</p>
         </div>

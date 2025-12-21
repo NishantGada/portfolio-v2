@@ -3,7 +3,7 @@
 
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 30px;
 }
 
 .contact div {
@@ -31,12 +31,21 @@
   width: 20%;
   margin: auto;
   display: flex;
-  align-items: center;
+  align-items: self-start;
   justify-content: space-evenly;
+}
+
+#leetcode-text {
+  color: black;
+  font-size: 12px;
 }
 
 .contact-icons {
   color: black;
+}
+
+.contact img {
+  width: 25px;
 }
 
 
