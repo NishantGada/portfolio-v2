@@ -14,7 +14,7 @@ export default function Banner() {
       </div>
       <div class="action-buttons-container">
         <a href="#about" class="btn">about me</a>
-        <a href="https://nishant-gada-resume.s3.us-east-1.amazonaws.com/resume.pdf" target="_blank" class="btn">resume</a>
+        {/* <a href="https://nishant-gada-resume.s3.us-east-1.amazonaws.com/resume.pdf" target="_blank" class="btn">resume</a> */}
       </div>
     </section>
   )
