@@ -4,11 +4,12 @@ export const experiences = [
     company: "Hometap",
     duration: "January 2025 to June 2025",
     items: [
-      "Engineered core LMS migration services to third-party integrations using Python, Django REST Framework, React, and TypeScript to boost system reliability by 29% and user growth by 15%",
-      "Developed CI/CD pipelines for staged deployments across 5+ cross-functional teams, cutting release time by 20% with less than 2% post-release issues",
-      "Contributed towards onboarding 3 partners onto the Home Equity Dashboard to improve customer loan journey and service integration",
-      "Drove static typing adoption using TypeScript and Pydantic, ensured code quality via 100+ code reviews, and introduced reusable design patterns",
-      "Leveraged test-driven development (TDD) to increase test coverage from 73% to 86% by adding unit, integration, regression, and end-to-end tests using Pytest, Jest, and Cypress, preventing regression failures"
+      "Contributed towards engineering core services for third - party integrations into our in -house LMS(Loan Management System) using Python, Django REST Framework, React, and TypeScript to boost system reliability, confidence, and expand service delivery across more states in the US",
+      "Partnered with cross - functional teams to deliver staged migration updates across agile sprints with help of bi - weekly meetings, documentation, CI / CD pipelines, and monitored version control",
+      "Drove static typing adoption using TypeScript and Pydantic, ensured code quality via 100 + code reviews, clean code and design patterns ",
+      "Leveraged test - driven development to increase test coverage by adding unit tests, integration tests, and end - to - end tests using Pytest and Cypress",
+      "Further developed and maintained the Home Equity Dashboard for improved user experience and smoother third - party integrations"
+
     ]
   },
   {
@@ -16,12 +17,20 @@ export const experiences = [
     company: "Think360.ai (Think Analytics)",
     duration: "September 2021 to June 2023",
     items: [
-      "Built a secure, high-throughput KYC microservice using Python, Flask, SQL, and AWS–reducing identity verification time and processing delays by 23%",
-      "Bumped revenue by 27% by improving system performance using domain-driven design, Redis caching, and Python-based code optimization",
-      "Scaled a core microservice horizontally across three business verticals using Docker, Kafka-based asynchronous communication, and GitHub Actions CI/CD, resulting in a 36% improvement in the client conversion funnel",
-      "Launched a Regulatory Audit Dashboard handling 3M+ daily active users under strict government compliance, cutting service response time by 22%",
+      "Reconstructed a legacy user KYC microservice using Python, Flask, SQL, and AWS reducing identity verification time and processing delays by 23% ",
+      "Bumped revenue 27% by improving system performance using event-driven workflows, Redis caching, and code optimization techniques",
+      "Scaled the microservice horizontally across 3 business verticals using Docker, Kafka-based asynchronous communication, and GitHub Actions CI/CD, resulting in a 36% improvement in the client conversion funnel",
+      "Launched a Regulatory Audit Dashboard handling 3M+ active users under strict government compliance, cutting service response time by 22%",
       "Led bi-weekly demos across product, engineering, and design teams to align delivery timelines, preempt release bottlenecks, and ensure seamless go-lives",
-      "Delivered a full-stack Loan Origination System (LOS) using Python, FastAPI, React, Redis, PostgreSQL, AWS to serve 100k+ users within 4 agile sprints"
+      "Delivered a full-stack Loan Origination System (LOS) using Python, FastAPI, React, Redis, PostgreSQL, AWS to serve 100k+ users within 4 agile sprints",
+
+      // "Reconstructed a legacy KYC microservice to reduce identity verification time, validation, and processing delays by 23%",
+      // "Drove a 27% revenue increase by introducing event-driven, AWS Lambda-based serverless workflows to offload non-critical processing, supplemented by caching and performance-focused architectural optimizations",
+      // "Expanded this horizontally scalable microservice to support 3 business verticals by decoupling workflows with Kafka-based asynchronous communication and standardizing containerized deployments, driving a 36% improvement in client conversion",
+      // "Launched a Regulatory Audit Dashboard handling 3M+ daily active users under strict government compliance, cutting service response time by 22%",
+      // "Led bi-weekly demos across product, engineering, and design teams to align delivery timelines, preempt release bottlenecks, and ensure seamless go-lives",
+      // "Delivered a full-stack Loan Origination System (LOS) using Python, FastAPI, React, Redis, PostgreSQL, AWS to serve 100k+ users within 4 agile sprints",
+      "Piloted an Android app in Java and Kotlin to offer financial services and loan information, leverage platform-specific features, enhance user experience"
     ]
   },
   {
