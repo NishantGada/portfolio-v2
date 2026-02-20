@@ -2,53 +2,54 @@ import React from 'react';
 import './Contact.css';
 import leetCodeIcon from '../../assets/icons/leetcode.png';
 
+const SOCIALS = [
+  {
+    href: 'https://github.com/NishantGada/',
+    icon: 'fa fa-github',
+    label: 'GitHub',
+  },
+  {
+    href: 'https://www.linkedin.com/in/nishant-gada/',
+    icon: 'fa fa-linkedin',
+    label: 'LinkedIn',
+  },
+  {
+    href: 'https://www.instagram.com/nishantgada_/',
+    icon: 'fa fa-instagram',
+    label: 'Instagram',
+  },
+];
+
+const LEETCODE = [
+  { href: 'https://leetcode.com/u/nishantgada/', label: 'Python' },
+  { href: 'https://leetcode.com/u/ngada/', label: 'Java' },
+];
+
 export default function Contact() {
   return (
-    <section class="contact" id="contact">
-      <div>
-        <h1>Contact & Socials</h1>
+    <section className="contact" id="contact">
+      <h2 className="contact__heading">Get in Touch</h2>
+
+      <a className="contact__email" href="mailto:nishantgada01@gmail.com">
+        nishantgada01@gmail.com
+      </a>
+
+      <div className="contact__socials">
+        {SOCIALS.map(({ href, icon, label }) => (
+          <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label} className="contact__icon">
+            <i className={`${icon} contact-icon`} aria-hidden="true" />
+          </a>
+        ))}
+
+        {LEETCODE.map(({ href, label }) => (
+          <a key={label} href={href} target="_blank" rel="noreferrer" className="contact__icon contact__leetcode" aria-label={`LeetCode ${label}`}>
+            <img src={leetCodeIcon} alt="" />
+            <span>{label}</span>
+          </a>
+        ))}
       </div>
 
-      <div id="email">
-        <a href="">gada.ni@northeastern.edu</a>
-      </div>
-
-      <div id="sub-contact">
-        <div className="socials">
-          <span>
-            <a href="https://www.instagram.com/nishantgada_/" target="_blank">
-              <i class="fa fa-instagram contact-icons" aria-hidden="true" />
-            </a>
-          </span>
-          <span>
-            <a href="https://www.linkedin.com/in/nishant-gada/" target="_blank">
-              <i class="fa fa-linkedin contact-icons" aria-hidden="true"></i>
-            </a>
-          </span>
-          <span>
-            <a href="https://github.com/NishantGada/" target="_blank">
-              <i class="fa fa-github contact-icons" aria-hidden="true"></i>
-            </a>
-          </span>
-          <span>
-            <a href="https://leetcode.com/u/nishantgada/" target="_blank">
-              <img src={leetCodeIcon} alt="" />
-              <p id="leetcode-text">Python</p>
-            </a>
-          </span>
-          <span>
-            <a href="https://leetcode.com/u/ngada/" target="_blank">
-              <img src={leetCodeIcon} alt="" />
-              <p id="leetcode-text">Java</p>
-            </a>
-          </span>
-        </div>
-      </div >
-
-      <div className="location">
-        <p>Boston</p>
-        <p>MA, USA.</p>
-      </div>
-    </section >
-  )
+      <p className="contact__location">📍 United States</p>
+    </section>
+  );
 }
