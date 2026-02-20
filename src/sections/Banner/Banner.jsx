@@ -9,7 +9,7 @@ export default function Banner() {
         <div>
           <p>Hi, my name is</p>
           <p id="name-text">Nishant Gada</p>
-          <p>Visionary, Developer</p>
+          <p><i>// Software Engineer</i></p>
         </div>
       </div>
       <div class="action-buttons-container">
