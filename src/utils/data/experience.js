@@ -9,7 +9,6 @@ export const experiences = [
       "Drove static typing adoption using TypeScript and Pydantic, ensured code quality via 100 + code reviews, clean code and design patterns ",
       "Leveraged test - driven development to increase test coverage by adding unit tests, integration tests, and end - to - end tests using Pytest and Cypress",
       "Further developed and maintained the Home Equity Dashboard for improved user experience and smoother third - party integrations"
-
     ]
   },
   {
@@ -17,12 +16,14 @@ export const experiences = [
     company: "Think360.ai (Think Analytics)",
     duration: "September 2021 to June 2023",
     items: [
-      "Reconstructed a legacy user KYC microservice using Python, Flask, SQL, and AWS reducing identity verification time and processing delays by 23% ",
-      "Bumped revenue 27% by improving system performance using event-driven workflows, Redis caching, and code optimization techniques",
-      "Scaled the microservice horizontally across 3 business verticals using Docker, Kafka-based asynchronous communication, and GitHub Actions CI/CD, resulting in a 36% improvement in the client conversion funnel",
+      "Reconstructed a legacy user KYC microservice to reduce identity verification time and processing delays by 23% in a cross-functional environment",
+      "Bumped client-generated revenue 27% by improving system performance using event-driven workflows, Redis caching, and code optimization techniques",
+      "Scaled the microservice across 3 business verticals using Docker, Kafka-based asynchronous communication, and GitHub Actions CI/CD, resulting in a 36% improvement in the client conversion funnel",
       "Launched a Regulatory Audit Dashboard handling 3M+ active users under strict government compliance, cutting service response time by 22%",
       "Led bi-weekly demos across product, engineering, and design teams to align delivery timelines, preempt release bottlenecks, and ensure seamless go-lives",
-      "Delivered a full-stack Loan Origination System (LOS) using Python, FastAPI, React, Redis, PostgreSQL, AWS to serve 100k+ users within 4 agile sprints",
+      "Regularly conducted Product and POC demos for CXOs and business heads in order to ensure go-live readiness, compliance, and strategic releases",
+      "Launched a user-focused platform with multi-bank integration to cross-sell as well as upsell financial products to existing users",
+      "Delivered a full-stack Loan Origination System (LOS) to serve 100k+ users within 4 agile sprints",
 
       // "Reconstructed a legacy KYC microservice to reduce identity verification time, validation, and processing delays by 23%",
       // "Drove a 27% revenue increase by introducing event-driven, AWS Lambda-based serverless workflows to offload non-critical processing, supplemented by caching and performance-focused architectural optimizations",
@@ -30,7 +31,7 @@ export const experiences = [
       // "Launched a Regulatory Audit Dashboard handling 3M+ daily active users under strict government compliance, cutting service response time by 22%",
       // "Led bi-weekly demos across product, engineering, and design teams to align delivery timelines, preempt release bottlenecks, and ensure seamless go-lives",
       // "Delivered a full-stack Loan Origination System (LOS) using Python, FastAPI, React, Redis, PostgreSQL, AWS to serve 100k+ users within 4 agile sprints",
-      "Piloted an Android app in Java and Kotlin to offer financial services and loan information, leverage platform-specific features, enhance user experience"
+      "Piloted an Android app in Java and Kotlin, adapting Jetpack architecture components (ViewModel, LiveData, Room, Navigation Component) to enforce MVVM patters, offer financial services and loan information, leverage platform-specific features, and enhance user experience"
     ]
   },
   {
@@ -38,8 +39,8 @@ export const experiences = [
     company: "Accenture",
     duration: "June 2021 to September 2021",
     items: [
-      "Architected a cross - platform health analytics application using Python, Flask, GCP, and React Native; served 75K+ users and enabled real- time tracking of health metrics across Android and iOS applications",
-      "Optimized SQL query response time from ~112 seconds to ~6 seconds through strategic indexing and optimization techniques, significantly improving data retrieval speed and overall user experience"
+      "Architected a cross - platform health and data analytics application to serve 75K+ users and enable real - time tracking of health metrics across Android and iOS applications",
+      "Optimized SQL query latency from ~112s to ~6s by adding targeted indexes, eliminating full table scans, and restructuring inefficient JOIN operations"
     ]
   },
   {
