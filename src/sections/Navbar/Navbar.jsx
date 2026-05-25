@@ -18,10 +18,10 @@ export default function Navbar() {
 
       <ul className={isActive ? 'active' : ''}>
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#more">More about me</a></li>
         <li><a href="#contact">Contact & Socials</a></li>
       </ul>
