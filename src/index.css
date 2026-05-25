@@ -100,7 +100,15 @@ img {
   display: block;
 }
 
-/* Page section rhythm */
+/* Page section rhythm — alternates background automatically based on
+   DOM order, so reordering sections in App.jsx is enough. */
 section {
   scroll-margin-top: 80px;
+  background-color: var(--bg);
+}
+
+section:nth-of-type(even) {
+  background-color: var(--bg-elevated);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }

@@ -1,7 +1,6 @@
 .banner {
   min-height: calc(100vh - 60px);
   padding: var(--space-20) var(--space-6);
-  background-color: var(--bg);
   display: flex;
   justify-content: center;
   align-items: center;
