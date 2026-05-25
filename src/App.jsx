@@ -1,4 +1,3 @@
-import BackToTopButton from './components/BackToTopButton/BackToTopButton'
 import About from './sections/About/About'
 import Banner from './sections/Banner/Banner'
 import Contact from './sections/Contact/Contact'
@@ -21,7 +20,6 @@ function App() {
       <Education />
       <More />
       <Contact />
-      <BackToTopButton />
     </>
   )
 }

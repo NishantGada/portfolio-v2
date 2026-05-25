@@ -1,28 +1,37 @@
 import React from 'react';
 import './Education.css';
 
+const EDUCATION = [
+  {
+    degree: "Master of Science in Computer Software Engineering",
+    school: "Northeastern University",
+    location: "Boston, MA, USA",
+    date: "Sep 2023 — Dec 2025",
+  },
+  {
+    degree: "Bachelor of Technology in Electronics & Telecommunication Engineering",
+    school: "University of Mumbai",
+    location: "Mumbai, India",
+    date: "Jun 2017 — Jun 2021",
+  },
+];
+
 export default function Education() {
   return (
-    <section class="education" id="education">
+    <section className="education" id="education">
       <h2>Education</h2>
-      <div class="timeline">
-        <div class="timeline-item left">
-          <div class="timeline-content">
-            <h2>Master's of Science in Computer Software Engineering</h2>
-            <p>Northeastern University</p>
-            <p>Boston, MA, USA</p>
-            <span class="timeline-date">September 2023 - December 2025</span>
-          </div>
-        </div>
-        <div class="timeline-item right">
-          <div class="timeline-content">
-            <h2>Bachelor of Technology in Electronics & Telecommunication Engineering</h2>
-            <p>University of Mumbai</p>
-            <p>Mumbai, India</p>
-            <span class="timeline-date">June 2017 - June 2021</span>
-          </div>
-        </div>
-      </div>
+      <ul className="education__list">
+        {EDUCATION.map((entry, i) => (
+          <li className="education__item" key={i}>
+            <span className="education__date">{entry.date}</span>
+            <div className="education__body">
+              <h3 className="education__degree">{entry.degree}</h3>
+              <p className="education__school">{entry.school}</p>
+              <p className="education__location">{entry.location}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }

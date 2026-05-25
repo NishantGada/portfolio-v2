@@ -1,81 +1,124 @@
 .contact {
+  background-color: var(--bg);
+  padding: var(--space-24) var(--space-6);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
-  padding: 5rem 2rem;
+  gap: var(--space-6);
   text-align: center;
 }
 
-/* Heading */
 .contact__heading {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0;
+  font-size: var(--text-3xl);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
-/* Email link */
 .contact__email {
-  font-size: 1.1rem;
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.2s ease;
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-strong);
+  padding-bottom: 2px;
+  transition: color var(--transition), border-color var(--transition);
 }
 
 .contact__email:hover {
-  border-bottom-color: currentColor;
+  color: var(--text);
+  border-bottom-color: var(--text);
 }
 
-/* Social icons row */
 .contact__socials {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: var(--space-3);
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: var(--space-4);
 }
 
-/* Individual icon link */
 .contact__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.3rem;
-  color: inherit;
-  text-decoration: none;
-  padding: 0.75rem 1rem;
-  border-radius: 14px;
-  background: #fff;
-  border: 1px solid #f0f0f0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  justify-content: center;
+  gap: var(--space-1);
+  width: 64px;
+  height: 64px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  transition: background-color var(--transition), border-color var(--transition), color var(--transition), transform var(--transition);
 }
 
 .contact__icon:hover {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.14);
-  transform: translateY(-3px);
+  background-color: var(--surface-hover);
+  border-color: var(--border-strong);
+  color: var(--text);
+  transform: translateY(-2px);
 }
 
 .contact-icon {
-  font-size: 1.8rem;
+  font-size: var(--text-xl);
 }
 
-/* LeetCode icon + label */
 .contact__leetcode img {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.4rem;
+  height: 1.4rem;
   object-fit: contain;
+  filter: grayscale(1) brightness(1.2);
+  opacity: 0.7;
+  transition: opacity var(--transition);
+}
+
+.contact__leetcode:hover img {
+  opacity: 1;
 }
 
 .contact__leetcode span {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
-/* Location */
 .contact__location {
-  font-size: 0.9rem;
-  opacity: 0.6;
-  margin: 0;
+  font-size: var(--text-xs);
+  color: var(--text-subtle);
+  margin-top: var(--space-4);
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: var(--space-16) var(--space-5);
+  }
+
+  .contact__heading {
+    font-size: var(--text-2xl);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    padding: var(--space-12) var(--space-4);
+    gap: var(--space-4);
+  }
+
+  .contact__heading {
+    font-size: var(--text-xl);
+  }
+
+  .contact__email {
+    font-size: var(--text-sm);
+  }
+
+  .contact__icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .contact__socials {
+    gap: var(--space-2);
+  }
 }

@@ -1,162 +1,106 @@
 .education {
-  padding: 30px 80px;
-
-  h2 {
-    margin: 40px 0 30px;
-    /* margin-bottom: 30px; */
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .timeline {
-    position: relative;
-    margin: 20px auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 800px;
-  }
-
-  .timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 4px;
-    background-color: #f53b57;
-    top: 0;
-    bottom: 0;
-    margin-left: -2px;
-  }
-
-  .timeline-item {
-    padding: 20px;
-    position: relative;
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .timeline-item.left {
-    left: 0;
-  }
-
-  .timeline-item.right {
-    left: 50%;
-  }
-
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    top: 25px;
-    right: -8px;
-    width: 8px;
-    height: 8px;
-    background-color: white;
-    border: 4px solid #f53b57;
-    border-radius: 50%;
-    z-index: 1;
-  }
-
-  .timeline-item.right::before {
-    left: -8px;
-  }
-
-  .timeline-content {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-    text-align: left;
-  }
-
-  .timeline-date {
-    font-size: 18px;
-    color: #f53b57;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  .timeline-content h2 {
-    font-size: 20px;
-    margin-bottom: 5px;
-    text-align: left;
-  }
-
-  .timeline-content p {
-    font-size: 16px;
-    color: #555;
-  }
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-24) var(--space-6);
+  background-color: var(--bg);
 }
 
-/* Responsive Timeline */
-@media (max-width: 1024px) {
-  .education .timeline {
-    width: 95%;
-    padding: 10px;
-  }
+.education h2 {
+  font-size: var(--text-3xl);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-12);
+  color: var(--text);
 }
 
-@media (max-width: 768px) {
-  .education .timeline::before {
-    left: 20px;
-    margin-left: 0;
-  }
-
-  .education .timeline-item {
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 20px;
-    margin-bottom: 40px;
-  }
-
-  .education .timeline-item.left,
-  .education .timeline-item.right {
-    left: 0;
-  }
-
-  .education .timeline-item::before {
-    top: 20px;
-    left: 4px;
-    right: auto;
-  }
-
-  .education .timeline-item.right::before {
-    left: 4px;
-  }
-
-  .education .timeline-content {
-    text-align: left;
-  }
+.education__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: 480px) {
+.education__item {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--space-8);
+  padding: var(--space-6) 0;
+  border-top: 1px solid var(--border);
+}
+
+.education__item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.education__date {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-subtle);
+  padding-top: 0.3rem;
+  letter-spacing: 0.02em;
+}
+
+.education__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.education__degree {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.education__school {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.education__location {
+  font-size: var(--text-xs);
+  color: var(--text-subtle);
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
   .education {
-    padding: 30px 0px;
+    padding: var(--space-16) var(--space-5);
   }
 
   .education h2 {
-    font-size: 1.6em;
-    margin: 30px 0 15px 0;
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-8);
   }
 
-  .education .timeline-date {
-    font-size: 16px;
+  .education__item {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+    padding: var(--space-5) 0;
   }
 
-  .education .timeline-content h2 {
-    font-size: 18px;
+  .education__date {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .education {
+    padding: var(--space-12) var(--space-4);
   }
 
-  .education .timeline-content p {
-    font-size: 14px;
+  .education h2 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-6);
   }
 
-  .education .timeline-item {
-    padding-left: 40px;
-    padding-right: 15px;
+  .education__degree {
+    font-size: var(--text-sm);
   }
 
-  .education .timeline-item::before {
-    left: 6px;
+  .education__school {
+    font-size: var(--text-xs);
   }
 }

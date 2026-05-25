@@ -4,16 +4,14 @@ import selfImage from '../../assets/self-no-bg.jpeg';
 
 export default function About() {
   return (
-    <section class="about" id="about">
-      <h2>
-        About me
-      </h2>
+    <section className="about" id="about">
+      <h2>About me</h2>
 
-      <div class="content">
-        <div class="contentBox">
+      <div className="content">
+        <div className="contentBox">
           <p>
             Software Engineer with 6 years of experience writing code and 3+ years of experience working across start-ups, mid-size companies, fintech
-            companies, and large-scale enterprises - where I’ve owned, built, launched, and managed financial products, user-centric
+            companies, and large-scale enterprises — where I've owned, built, launched, and managed financial products, user-centric
             applications, financial dashboards, enterprise software, and mobile applications.
           </p>
           <p>
@@ -27,8 +25,8 @@ export default function About() {
           </p>
         </div>
 
-        <div class="self_image">
-          <img src={selfImage} alt="" />
+        <div className="self_image">
+          <img src={selfImage} alt="Nishant Gada" />
         </div>
       </div>
     </section>

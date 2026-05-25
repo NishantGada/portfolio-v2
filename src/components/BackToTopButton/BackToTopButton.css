@@ -1,47 +1,46 @@
 .back-to-top {
   position: fixed;
-  right: 30px;
-  bottom: 50px;
+  right: var(--space-6);
+  bottom: var(--space-6);
   z-index: 999;
+  pointer-events: none;
 }
 
 .back-to-top a {
   visibility: hidden;
   opacity: 0;
-  transition: all 0.3s ease;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #f53b57;
-  background-color: #f53b57;
-  border-radius: 50%;
-  color: white;
+  transform: translateY(8px);
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  transition: opacity var(--transition), transform var(--transition), background-color var(--transition), color var(--transition), border-color var(--transition);
 }
 
-/* Show when active */
+.back-to-top.active {
+  pointer-events: auto;
+}
+
 .back-to-top.active a {
   visibility: visible;
   opacity: 1;
+  transform: translateY(0);
 }
 
 .back-to-top a:hover {
-  background-color: #ff5c75;
-  border-color: #ff5c75;
+  background-color: var(--surface-hover);
+  color: var(--text);
+  border-color: var(--text-muted);
 }
 
 @media screen and (max-width: 768px) {
   .back-to-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .back-to-top {
-    right: 15px;
-    bottom: 15px;
+    right: var(--space-4);
+    bottom: var(--space-4);
   }
 }

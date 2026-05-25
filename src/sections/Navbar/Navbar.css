@@ -1,73 +1,83 @@
 nav,
 #nav {
-  background-color: rgb(32, 32, 32);
+  position: sticky;
+  top: 0;
+  z-index: 100;
   width: 100%;
+  background-color: rgba(14, 14, 14, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
 }
 
 nav ul {
-  width: 80%;
-  margin: auto;
-  text-align: center;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
 }
 
 nav ul li {
   list-style: none;
-  display: inline-block;
-  padding: 20px 25px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: white;
-  transition: 0.5s;
+  display: inline-block;
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.01em;
+  transition: color var(--transition);
 }
 
 nav ul li a:hover {
-  color: rgb(255, 86, 35);
+  color: var(--text);
 }
 
 .toggle {
-  width: 100%;
-  padding: 20px 0;
-  text-align: right;
   display: none;
-  background-color: rgb(32, 32, 32);
 }
 
-.toggle i {
-  margin-right: 20px;
-  font-size: 24px;
+.toggle .menu {
   cursor: pointer;
-}
-
-.menu {
-  color: white;
-}
-
-.burger-menu {
-  color: white;
+  font-size: var(--text-xl);
+  color: var(--text);
 }
 
 @media screen and (max-width: 768px) {
+  nav,
+  #nav {
+    padding: 0;
+  }
+
   .toggle {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    padding: var(--space-4) var(--space-6);
   }
 
   nav ul {
     display: none;
     flex-direction: column;
-    width: 100%;
-    background-color: rgb(32, 32, 32);
-    text-align: left;
-    padding: 20px;
-  }
-
-  nav ul li {
-    display: block;
-    padding: 15px 0;
+    padding: 0 var(--space-6) var(--space-4);
+    gap: 0;
   }
 
   nav ul.active {
-    display: flex !important;
+    display: flex;
+  }
+
+  nav ul li {
+    border-top: 1px solid var(--border);
+  }
+
+  nav ul li a {
+    display: block;
+    padding: var(--space-3) 0;
+    font-size: var(--text-sm);
   }
 }
