@@ -17,13 +17,13 @@ export default function Navbar() {
       </div>
 
       <ul className={isActive ? 'active' : ''}>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#more">More about me</a></li>
-        <li><a href="#contact">Contact & Socials</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#more">more about me</a></li>
+        <li><a href="#contact">get in touch</a></li>
       </ul>
     </nav>
   );
