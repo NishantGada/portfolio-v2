@@ -10,18 +10,13 @@ export default function About() {
       <div className="content">
         <div className="contentBox">
           <p>
-            Software Engineer with 6 years of experience writing code and 3+ years of experience working across start-ups, mid-size companies, fintech
-            companies, and large-scale enterprises — where I've owned, built, launched, and managed financial products, user-centric
-            applications, financial dashboards, enterprise software, and mobile applications.
+            Software Engineer, been writing code since 2019 and have worked for about 3 years across startups, mid-size companies, fintech companies, and large-scale enterprises — where I've owned, built, launched, and managed financial products, user-centric applications, financial dashboards, enterprise software, mobile applications, and now AI integrated applications!
           </p>
           <p>
-            Ultra curious about AI, AI Agents, Cloud Computing, and Software Engineering and eager to augment my
-            knowledge, experience and skills in the professional world.
+            Ultra curious about AI, AI Agents, Cloud Computing, and Software Engineering and eager to augment my knowledge, experience and skills in the professional world.
           </p>
           <p>
-            Skilled in Python, Java, JavaScript/TypeScript, React, SQL/NoSQL, constructing cloud-focused infrastructure
-            using AWS and GCP, and building CI/CD pipelines. Experienced in building scalable enterprise standard
-            applications and improving system efficiency and reliability in fast-paced, dynamic environments.
+            Skilled in Python, Java, JavaScript/TypeScript, React, SQL/NoSQL, constructing cloud-focused infrastructure using AWS, and building CI/CD pipelines. Experienced in building scalable enterprise standard applications and improving system efficiency and reliability in fast-paced, dynamic environments.
           </p>
         </div>
 

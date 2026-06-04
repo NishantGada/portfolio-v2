@@ -1,5 +1,13 @@
 export const projects = [
   {
+    name: "Smart Receipts OCR Tool",
+    techStack: "JavaScript, React Native, Gemini Vision, Gemini LLM",
+    description:
+      "gemini vision + react native-powered OCR tool to scan receipts, analyze exact amounts (including tips, extra charges, etc), and expense splitting based on natural language descriptions",
+    githubLink: "https://github.com/NishantGada/smart-receipts",
+    show: true
+  },
+  {
     name: "QuickSplit [w.i.p]",
     // emoji: "🛠️",
     techStack: "Python, FastAPI, Pydantic, JWT Auth, React, JavaScript, TypeScript, Ant Design",
@@ -51,6 +59,6 @@ export const projects = [
     description:
       "Developed a full-stack blogging platform with a robust backend supporting blog creation, media uploads, and timestamp tracking. Designed advanced search and filtering features to improve navigation and content discovery.",
     githubLink: "https://github.com/NishantGada/unwritten",
-    show: true
+    show: false
   }
 ];
